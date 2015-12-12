@@ -77,7 +77,7 @@ public class PosMachineTest {
 
         double total = machine.cost(Arrays.asList(new Cart("ITEM000002", 3)));
 
-        assertEquals(total, 50, 1e-6);
+        assertEquals(total, 62.5, 1e-6);
     }
 
     @Test
